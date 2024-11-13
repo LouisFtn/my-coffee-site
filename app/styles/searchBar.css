@@ -1,0 +1,51 @@
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; /* Utilisez la hauteur totale de la fenêtre de visualisation */
+  }
+  
+  .search-bar-form {
+    display: flex;
+    align-items: center;
+    background-color: #fed7e2;
+    border-radius: 25px;
+    padding: 5px 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .search-input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    width: 400px; /* Ajustez la largeur selon vos besoins */
+  }
+  
+  .search-button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1.2em;
+  }
+  
+  .search-input:focus {
+    box-shadow: none;
+  }
+
+  /* For dark mode */
+.dark-search-input {
+  /* dark mode input styles */
+  background-color: #333;
+  color: rgb(0, 0, 0);
+  /* other styles as needed */
+}
+
+.dark-search-button {
+  /* dark mode button styles */
+  background-color: #444;
+  color: rgb(0, 0, 0);
+  /* other styles as needed */
+}
+  
